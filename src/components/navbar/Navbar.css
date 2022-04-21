@@ -1,0 +1,10 @@
+.Navbar{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.Navbar li {
+    margin: 0 .5em;
+    cursor: pointer;
+}
