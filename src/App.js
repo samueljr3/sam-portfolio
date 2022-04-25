@@ -8,19 +8,17 @@ import Contact from './components/contact/Contact';
 function App() {
   return (
     <div className="App">
-      
-      <BrowserRouter>
+      <Navbar/>
+      <Home/>
+      {/* <BrowserRouter>
       <Navbar/>
         <Routes>
           <Route  index element={<Home/>} />
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
-      </BrowserRouter>
-        <header className="App-header">
-          
-          <p>pog champ</p>
-      </header>
+      </BrowserRouter> */}
+        
     </div>
   );
 }
