@@ -9,8 +9,8 @@
 }
 .hero-info{
     max-width:500px;
-    margin: 0 auto;
-    font-size: 1.8rem;
+    margin: 1em auto;
+    font-size: 1.3rem;
     line-height: 1.6rem;
 
     @media only screen and (max-width: 768px){
@@ -48,4 +48,35 @@
     margin: 0 auto;
 }
 
+.hero-scrolldown{
+    display:flex;
+    flex-direction: column;
+    gap:7rem;
+    position: absolute;
+    bottom:20px;
+    width: 50px;
+}
 
+.hero-scrolldown p{
+    font-size:.9rem;
+    transform: translate(-10px) rotate(90deg);
+    letter-spacing: .7rem;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px){
+    .hero-scrolldown{
+        width: 20px;
+        bottom:-220px;
+    }
+}
+
+/* .hero-arrow{
+    font-size: 4rem;
+} */
+/* .hero-scrolldown img{
+    max-height:45px;
+    width:16px;
+    margin: 0 auto;
+    object-fit:contain;
+} */

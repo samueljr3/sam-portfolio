@@ -1,9 +1,14 @@
 import React from 'react'
+import "./Projects.css"
 
 function Projects() {
   return (
-    <div>
-        <p>These a projects</p>
+    <div className='projects-container'>
+        <h2>Projects I've worked on</h2>
+
+        <div className="projects-grid">
+          
+        </div>
     </div>
   )
 }
