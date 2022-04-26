@@ -10,9 +10,10 @@ function Projects() {
         <div className="projects-grid">
           <Cards title="Netflix Redesign" siteImg="./netflix.png" link="https://google.com"/>
           <Cards title="Hogar" siteImg="./hogar.png" link="https://samueljr3.github.io/code4Justice/"/>
-          <Cards title="Project 3" siteImg="./netflix.png" link="https://google.com"/>
-          <Cards title="Project 4" siteImg="./netflix.png" link="https://google.com"/>
+          <Cards title="Sugoi Ecommerce" siteImg="./sugoi.png" link="https://sam-sugoi-ecommerce.herokuapp.com/"/>
+          <Cards title="Gateway Project" siteImg="./gateway.png" link="https://el-salv-site.samueljr3.repl.co/index.html"/>
         </div>
+        <hr></hr>
     </div>
   )
 }

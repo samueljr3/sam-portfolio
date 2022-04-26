@@ -7,10 +7,13 @@ import Contact from './components/contact/Contact';
 
 function App() {
   return (
+    <>
     <div className="App">
       <Navbar/>
       <Home/>
       <Projects/>
+      </div>
+      <Contact/>
       {/* <BrowserRouter>
       <Navbar/>
         <Routes>
@@ -20,7 +23,8 @@ function App() {
         </Routes>
       </BrowserRouter> */}
         
-    </div>
+    
+    </>
   );
 }
 

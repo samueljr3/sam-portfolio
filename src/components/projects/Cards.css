@@ -13,5 +13,7 @@
 
 .card a{
     cursor: pointer;
-    
+    padding: .6rem 1.8rem;
+    border:2px solid grey;
+    border-radius: 8px;
 }
