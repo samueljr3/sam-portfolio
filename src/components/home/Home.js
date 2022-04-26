@@ -16,6 +16,8 @@ function Home() {
             A result-driven and adaptable coding apprentice who aims to help
             innovate while also actively learning new skills.
           </p>
+          <br></br>
+          <p>————————</p>
         </div>
         <div className="hero-scrolldown">
           <p>Scroll</p>
