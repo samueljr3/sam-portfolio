@@ -1,6 +1,4 @@
 .hero{
-    
-    /* min-height: 1000px; */
     width: 100%;
     display:flex;
     align-items: center;
@@ -20,7 +18,7 @@
 
 .hero-heading{
     font-size:1.7rem;
-    margin-top: 1em;
+    margin-top: 3em;
     margin-bottom: .5rem;
     position: relative;
     

@@ -9,7 +9,7 @@ function Home() {
           <span className="hero-name"> Samuel Rivas Ramirez</span>
         </h1>
         <div>
-          <img className="hero-img" src="./bread.PNG" alt="me" />
+          <img className="hero-img" src="./sam.jpg" alt="me" />
         </div>
         <div className="hero-info">
           <p>

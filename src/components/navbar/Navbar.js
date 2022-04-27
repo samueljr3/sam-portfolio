@@ -1,22 +1,35 @@
 import React from 'react'
 import './Navbar.css'
-import {Link} from 'react-router-dom';
 
 function Navbar() {
+  function home(){
+    window.scrollTo({
+      top:0,
+      behavior:'smooth'
+    });
+  }
+  function projects(){
+    window.scrollTo({
+      top:620,
+      behavior:'smooth'
+    });
+  }
+  function contact(){
+    window.scrollTo({
+      top:1950,
+      behavior:'smooth'
+    });
+  }
+
   return (
-    <>
-        {/* <ul className = "Navbar">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-        </ul> */}
+    <div className='Nav-container'>
         <ul className = "Navbar">
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li onClick={home}>Home</li>
+            <li onClick={projects}>Projects</li>
+            <li onClick={contact}>Contact</li>
         </ul>
         <hr></hr>
-    </>
+    </div>
   )
 }
 
