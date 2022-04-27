@@ -1,7 +1,7 @@
 .contact-wrapper{
     display: flex;
     gap:5rem;
-    margin-top: 7rem;
+    margin-top: 3rem;
     justify-content:center;
     position: relative;
 }
@@ -9,12 +9,27 @@
 .contact-container h2{
     text-align: center;
     font-size: 2rem;
+    margin-top: 1em;
 }
 .contact-form{
     display: flex;
     flex-direction: column;
     width:100%;
     margin-bottom: 2rem;
+}
+
+.contact-form button{
+    width:50%;
+    margin: 1em auto;
+    font-size: 1rem;
+    padding: .5rem 2rem;
+    cursor: pointer;
+    background-color: #282c34;
+    border:2px solid grey;
+    border-radius: 8px;
+}
+.contact-form label{
+    margin-bottom: 1em;
 }
 
 textarea, input{
@@ -45,7 +60,18 @@ textarea, input{
 
 .contact-item p{
     max-width: 500px;
-    
     font-size: 1.8rem;
     line-height: 1.3em;
+}
+
+@media only screen and (max-width: 768px){
+    .contact-wrapper{
+        flex-direction: column;
+    }
+    .contact-form{
+        padding: 0 1.5em;
+    }
+    textarea, input{
+        font-size: 1.5rem;
+    }
 }

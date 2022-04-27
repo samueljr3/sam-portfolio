@@ -3,7 +3,7 @@ import React from "react";
 function ContactForm() {
   return (
     <div className="contact-right">
-      <form className='contact-form'>
+      <form className="contact-form">
         <label>
           Name:
           <input type="text" id="name" name="name" />
@@ -13,10 +13,8 @@ function ContactForm() {
           <input type="email" placeholder="johndoe@email.com" required />
         </label>
         <label>
-            Message: 
-            <textarea
-            type="text"
-            ></textarea>
+          Message:
+          <textarea type="text"></textarea>
         </label>
         <button type="submit">Send</button>
       </form>

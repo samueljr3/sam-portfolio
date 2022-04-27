@@ -22,7 +22,6 @@ function Home() {
         <div className="hero-scrolldown">
           <p>Scroll</p>
           <p className="hero-arrow">⟶</p>
-          {/* <img src='./down-arrow-svgrepo.svg' alt="ScrollDown Arrow"/> */}
         </div>
       </div>
     </div>
