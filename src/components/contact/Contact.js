@@ -21,6 +21,10 @@ function Contact() {
             link="https://www.linkedin.com/in/samuelrivasramirez/"
             name="linkedin"
           />
+          <div className="contact-item">
+            <img src="./mari.webp" alt="mari" />
+            <p>Feel free to reach out</p>
+          </div>
         </div>
         <div>
           <ContactForm />

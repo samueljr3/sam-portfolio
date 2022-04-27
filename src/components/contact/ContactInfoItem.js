@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 
-function ContactInfoItem({ icon, para,link,name }) {
+function ContactInfoItem({ icon, para, link, name, mari }) {
   return (
     <div className="contact-item">
       <a
